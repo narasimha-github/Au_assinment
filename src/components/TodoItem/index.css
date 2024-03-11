@@ -1,0 +1,37 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(87, 123, 214);
+  color: aliceblue;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 8px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.sub-para {
+  display: inline-flex;
+}
+
+.button1 {
+  text-align: right;
+  margin: 10px;
+  background-color: transparent;
+  color: red;
+}
+
+.mill {
+  display: inline-block;
+  margin: 10px;
+}
+
+.input-style {
+  background-color: transparent;
+}

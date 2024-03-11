@@ -1,0 +1,32 @@
+.main-container {
+  min-height: 100vh;
+  height: 100%;
+  padding: 20px;
+  background-color: gray;
+}
+
+.main-heading {
+  color: aliceblue;
+  font-family: 'Roboto';
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input {
+  display: block;
+  height: 45px;
+  width: 600px;
+  border-radius: 8px;
+}
+
+.sub-container {
+  display: block;
+  padding: 100px;
+}
+
+.button {
+  height: 60px;
+  width: 120px;
+  background-color: rgb(87, 123, 214);
+}
