@@ -52,14 +52,14 @@ class TodoItem extends Component {
     const p = addInput.slice(0, m)
 
     return (
-      <div className="mainDiv">
+      <div className='mainDiv'>
         {isActive ? (
           <>
-            <p className="sub-para">
+            <p className='sub-para'>
               {p} updated {count} times
             </p>
-            <div className="mill">
-              <button className="button1" onClick={this.mainDelete}>
+            <div className='mill'>
+              <button className='button1' onClick={this.mainDelete}>
                 <BsX />
               </button>
               <button onClick={this.changem}>{serialNumber}</button>
@@ -68,7 +68,7 @@ class TodoItem extends Component {
         ) : (
           <input
             onBlur={this.onBlurchange}
-            className="input-style"
+            className='input-style'
             onChange={this.onchangeDesc}
           />
         )}
